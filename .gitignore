@@ -1,0 +1,40 @@
+# Kompilierte Objektdateien
+*.o
+*.obj
+
+# Ausführbare Dateien
+*.exe
+*.out
+*.app
+
+# Debug- und Release-Verzeichnisse
+Debug/
+Release/
+cmake-build-debug/
+
+# CMake-spezifische Dateien
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Benutzer-spezifische Dateien
+*.swp
+*.swo
+
+# ===========================
+# Projekt-spezifische Ignorierungen
+# ===========================
+
+# Externe Bibliotheken (falls diese nicht im Repository sein sollen)
+External Libraries/
+
+# Temporäre Dateien oder Ordner
+Scratches and Consoles/
+tagdb/
+
+
+# Andere temporäre Dateien
+*.log
+*.tmp
