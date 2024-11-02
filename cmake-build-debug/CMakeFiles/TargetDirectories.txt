@@ -1,0 +1,3 @@
+/home/edmond/ki/5/pg2/exercises/e_04/cmake-build-debug/CMakeFiles/e_04.dir
+/home/edmond/ki/5/pg2/exercises/e_04/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/edmond/ki/5/pg2/exercises/e_04/cmake-build-debug/CMakeFiles/rebuild_cache.dir

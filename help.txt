@@ -1,0 +1,29 @@
+Verwendung: tagdb [Optionen] [Argumente]
+
+Optionen:
+  -h, --help          Zeigt diese Hilfe an und beendet das Programm.
+  -a                  Fügt einen neuen Eintrag zur Tag-Datenbank hinzu.
+                      Syntax: tagdb -a tag1,tag2,...,tagN Inhalt...
+                      Beispiel:
+                        tagdb -a tag1,tag2 Dies ist der Inhalt des Eintrags.
+  -q                  Sucht in der Tag-Datenbank nach Einträgen, die alle angegebenen Tags enthalten.
+                      Kann mehrfach verwendet werden, um alternative Suchkriterien anzugeben.
+                      Syntax:
+                        tagdb -q tag1,tag2,...,tagN [-q tagA,tagB,...]
+                      Beispiel:
+                        tagdb -q tag1,tag2 -q tag1,tag3
+
+Beschreibung:
+Das Programm `tagdb` ermöglicht das Hinzufügen und Abfragen von Einträgen basierend auf Tags.
+
+**Hinzufügen eines Eintrags:**
+- Verwenden Sie die Option `-a`, gefolgt von den Tags und dem Inhalt.
+- Die Tags müssen ohne Leerzeichen und getrennt durch Kommata angegeben werden.
+- Der Inhalt kann beliebige Leerzeichen enthalten.
+
+**Abfragen von Einträgen:**
+- Verwenden Sie die Option `-q`, gefolgt von den Tags.
+- Sie können mehrere `-q` Optionen angeben, um alternative Suchkriterien zu definieren.
+- Ein Eintrag wird ausgegeben, wenn er mindestens eines der Suchkriterien erfüllt.
+- Innerhalb eines Suchkriteriums müssen alle angegebenen Tags im Eintrag vorhanden sein.
+

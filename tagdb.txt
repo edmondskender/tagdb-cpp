@@ -1,0 +1,7 @@
+pg2,grips,link https://elearning.uni-regensburg.de/course/view.php?id=48615 
+pg2,lecture Wed 11:45, Fri 13:45 
+link,search https://duckduckgo.com/ website that does not track my searches 
+pg2,link https://en.cppreference.com/w/ 
+tag1,tag2 test 
+tag1,tag2 test2 
+tag1,tag2 test3 
